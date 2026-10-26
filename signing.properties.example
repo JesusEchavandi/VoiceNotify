@@ -1,0 +1,6 @@
+# Copy to signing.properties only if you already have a private signing key.
+# Otherwise use scripts/New-PersonalSigning.ps1 to generate one locally.
+storeFile=signing/voicenotify-personal.p12
+storePassword=REPLACE_LOCALLY
+keyAlias=voicenotify-personal
+keyPassword=REPLACE_LOCALLY
